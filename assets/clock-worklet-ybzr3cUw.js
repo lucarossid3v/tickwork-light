@@ -1,0 +1,1 @@
+(function(){var e=class extends AudioWorkletProcessor{quanta=0;process(){return this.quanta++%4==0&&this.port.postMessage(currentTime),!0}};registerProcessor(`tickwork-clock`,e)})();
